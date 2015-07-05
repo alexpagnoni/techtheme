@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<application>
+
+	<definition>
+		<idname>techtheme</idname>
+		<release>
+			<version>1.1</version>
+			<date>2008/12/15</date>
+			<changesfile>CHANGES</changesfile>
+		</release>
+		<description>Tech interface theme for Innomatic</description>
+		<category>themes</category>
+		<iconfile></iconfile>
+		<legal>
+			<author>
+				<name>Innomatica</name>
+				<email>info@innomatica.it</email>
+				<web>http://www.innomatica.it/</web>
+			</author>
+			<copyright>Copyright (c) 2000-2009 Innoteam</copyright>
+			<license>GPL</license>
+			<licensefile>LICENSE</licensefile>
+		</legal>
+		<support>
+			<supportemail>support@innomatica.it</supportemail>
+			<bugsemail>bugs@innomatica.it</bugsemail>
+			<maintainer>
+				<name>Alex Pagnoni</name>
+				<email>alex.pagnoni@innoteam.it</email>
+			</maintainer>
+		</support>
+	</definition>
+
+	<components>
+
+		<catalog name="techtheme" />
+		<wuitheme name="tech" file="tech_wuitheme.ini"
+			catalog="techtheme::innomatic_misc_techtheme" />
+		<wuicolorsset name="tech" file="tech_wuicolorsset.ini"
+			catalog="techtheme::innomatic_misc_techtheme" />
+		<wuistyle name="tech" file="tech_wuistyle.ini"
+			catalog="techtheme::innomatic_misc_techtheme" />
+		<wuiiconsset name="tech" file="tech_wuiiconsset.ini"
+			catalog="techtheme::innomatic_misc_techtheme" />
+
+	</components>
+</application>
